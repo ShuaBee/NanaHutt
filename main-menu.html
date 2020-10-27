@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Main Menu</title>
+    <link rel="stylesheet" href="main-menu.css">
+    <script src="main-menu.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <style>
+      .content-section{
+           
+           display:flex;
+           flex-direction: row;
+           flex-wrap: nowrap;
+           justify-content: space-between;
+           min-width: 600px;
+         }
+         .content-section{
+           display:grid;
+           grid-template-columns: repeat(3, 1fr);
+           grid-gap: 1rem;
+         
+           flex:1 1 auto;
+         }
+         .content-section2{
+           flex: 1 1 20%;
+         }
+         .content-section2{
+           border: 1px solid #999;
+           padding: 1rem;
+           box-sizing: content-box;
+           max-width: 300px;
+           position: relative;
+           
+         }
+         
+         #wrapper {
+         width: 1000px;
+         margin: 0 auto;
+         display: flex;
+         flex-wrap: wrap;
+         }
+         
+         .left-column {
+         width: 65%;
+         }
+         
+         .right-column {
+         width: 35%;
+         }
+    </style>
+    <!--- html-->
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+      <img src="b_header.jpg" width="150px">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Main Menu</a></li>
+          <li><a href="">Side Menu</a></li>
+          <li><a href="">Kids</a></li>
+          <li><a href="pay.html"><img src="cart.com_56132.png" width="30px" height="30px"></a></li>
+        </ul>
+      </nav>
+     
+    </div>
+    <div class="monday-free" >
+      <h1>PICK UP Your Order, ALL PIZZA 50% OFF!!</h1>
+      <p>+$5 for delivary, or order over $50 free delivary!</p><br><br><br>
+  </div>
+
+
+  <div id="wrapper">
+    <div class="left-column">
+      <h2 class="section-header">Plain Pizza</h2>
+    <!---Plain Pizza-------->
+  
+  <section class="container content-section">
+    
+  
+    <div class="nh-items">
+        <div class="nh-item">
+          <p>Everyone love it! MOST POPULAR <br></p>
+          <span class="nh-item-title">Olive Pizza</span>
+            <img class="nh-item-image" src="pizza-1.jpg"width="50%">
+                   <p>Allergey: Wheat,diry product</p><br>
+                   <div class="add-toppings">
+                    <h4 >EXTRA TOPPING</h4>
+                        <label>
+                          <input type="checkbox" value="Cheese"> Cheese $3.5
+                        </label><br>
+                        <label>
+                        <input type="checkbox" value="Garlic">Garlic $1.5
+                        </label><br>
+                        <label>
+                        <input type="checkbox" value="Bacon">Bacon $3.5
+                        </label><br>
+                        <label>
+                        <input type="checkbox" value="Corn">Corn $2
+                        </label><br>
+                        <label>
+                       <input type="checkbox" value="Honey">Honey $1
+                       </label>
+              </div>
+              <div class="nh-item-details">
+            <span class="nh-item-price" style="color: orange">M size$22.99/ L size$28.99</span><br>
+            <button class="btn btn-primary nh-item-button" type="button">Add To Cart</button>
+          </div>
+        </div>
+      
+
+          <div class="nh-item">
+            <span class="nh-item-title">Seafood</span>
+            <img class="nh-item-image" src="seafood.jpg"width="50%">
+            <p>Never try it before? GET IT NOW!! <br></p>
+                  <strong> Allergey: Wheat,diry product,seafood</strong><br>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+            <div class="nh-item-details">
+            <span class="nh-item-price">$25</span><br>
+            <button class="btn btn-primary nh-item-button" type="button">Add To Cart</button>
+          </div>
+        </div>
+
+
+    <div class="nh-item">
+      <span class="nh-item-title">Olive Pizza111</span>
+        <img class="nh-item-image" src="pizza-1.jpg"width="50%">
+        <p>Everyone love it! MOST POPULAR <br></p>
+               <strong>Allergey: Wheat,diry product</strong><br>
+          <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+          </div>
+          <div class="nh-item-details">
+        <span class="nh-item-price">$111</span><br>
+        <button class="btn btn-primary nh-item-button" type="button">Add To Cart</button>
+      </div>
+    </div>
+  </section>
+
+                                <!---Special Pizza-->
+                                <h2 class="section-header2">Special Pizza</h2>
+    <section class="container content-section">
+      
+
+      <div class="nh-items">
+    <div class="nh-item">
+      <span class="nh-item-title">Teriyaki</span>
+        <img class="nh-item-image" src="teriyaki.jpg"width="50%">
+        <p>sweet teriyaki! <br></p>
+               <strong>Allergey: Wheat,diry product</strong><br>
+          <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+          </div>
+          <div class="nh-item-details">
+        <span class="nh-item-price">$55</span><br>
+        <button class="btn btn-primary nh-item-button" type="button">Add To Cart</button>
+      </div>
+    </div>
+    <div class="nh-item">
+      <span class="nh-item-title">Traditional</span>
+        <img class="nh-item-image" src="traditional_nana.jpg"width="50%">
+        <p>Everyone love it! MOST POPULAR <br></p>
+               <strong>Allergey: Wheat,diry product</strong><br>
+          <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+          </div>
+          <div class="nh-item-details">
+        <span class="nh-item-price">$35</span><br>
+        <button class="btn btn-primary nh-item-button" type="button">Add To Cart</button>
+      </div>
+    </div>
+    <div class="nh-item">
+      <span class="nh-item-title">Teriyaki333</span>
+        <img class="nh-item-image" src="teriyaki.jpg"width="50%">
+        <p>sweet teriyaki! <br></p>
+               <strong>Allergey: Wheat,diry product</strong><br>
+          <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star"></i>
+          </div>
+          <div class="nh-item-details">
+        <span class="nh-item-price">$333</span><br>
+        <button class="btn btn-primary nh-item-button" type="button">Add To Cart</button>
+      </div>
+    </div>
+
+ </div><hr class="dots">
+ </section>
+</div>
+ <div class="right-column">
+
+
+         <!------- cart items detail----->
+ <section class="container content-section2">
+  <h2 class="section-header3">Your Cart</h2>
+        <div class="cart-row">
+               <span class ="cart-item cart-header cart-column">Item</span>
+               <span class="cart-price cart-header cart-column">Price</span>
+               <span class="cart-quantity cart-header cart-column">Quantity</span>
+              
+        </div>
+
+
+    <div class="cart-items">
+      
+      
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img class="cart-item-image" src="teriyaki.jpg"width="35%">
+            <span class="cart-item-title">Teriyaki</span></div>
+              <span class="cart-price cart-column">$55.00</span>
+              <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="4">
+                <button class="btn btn-danger" type="button">Remove</button>
+              </div>
+          </div>
+        </div>
+        <div class="cart-total">
+          <strong class="cart-total-title">Total</strong>
+          <span class="cart-total-price">$260</span>
+        </div>
+
+               <button class="btn btn-primary btn-purchase" type="button">Purchase</button>
+
+              </section></div></div>
+
+<!--------subtotal, tax 　もいれたいねんけど。。。------->
+<button class="btn btn-home" type="button"><a href="HOME.html">Back To HOME </button></a>
+</body>
+</html>
